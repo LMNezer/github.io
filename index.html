@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EzerPhotowork</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><img src="Mini Logo.png"></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#portfolio">Services</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"> <i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Capture Your <span>Everlasting Moment</span></h1>
+        <p>
+          Ada kalanya sebuah cerita tak dapat diungkapkan melalui kata-kata,
+          tetapi hanya bisa dikenang dari sebuah gambar. Percayakan setiap
+          cerita yang anda lalui untuk diabadikan bersama kami.
+        </p>
+        <a href="https://www.instagram.com/ezer.photowork/" class="cta">Book Us Now</a>
+        <script>
+          document.querySelector('.cta').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open(this.href, '_blank');
+          });
+        </script>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2>About <span>Us</span></h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="../UAS/Tentang Kami.png" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <p>
+            Kami adalah Tim yang bergerak di bidang foto dan video di Kota
+            Sorong - Papua Barat Daya sejak tahun 2022 untuk mewujudkan ide-ide
+            kreatif dalam menangkap momen melalui audio & visual.
+          </p>
+          <p>
+            Melalui karya audio-visual yang kami tangkap, kami berkomitmen untuk
+            memberikan hasil yang terbaik sebagai kesan yang tak terlupakan
+            dalam setiap momen berharga anda.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="portfolio">
+      <h2>Layanan<span>Yang Kami Tawarkan</span></h2>
+      <p>
+        Menghasilkan karya yang memberikan dampak positif bagi banyak orang dan
+        menjadi bagian dari kegembiraan mereka adalah kebanggaan bagi kami.
+      </p>
+      <p>
+        Berikut layanan yang kami tawarkan :
+        <span
+          >Pre-Wedding, Wedding, Events, Music Video, Company Profile,
+          Film, Commercial Photo & Video, Birthday, Engagement.</span
+        >
+      </p>
+
+      <div class="row">
+        <div class="portfolio-card">
+          <img src="../UAS/Rio.jpg" alt="Model" class="portfolio-card-img" />
+          <h3 class="portfolio-card-title">-- Foto Model --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img src="../UAS/Cincin.jpg" alt="Model" class="portfolio-card-img" />
+          <h3 class="portfolio-card-title">-- Wedding --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img src="../UAS/Freddy.jpg" alt="Model" class="portfolio-card-img" />
+          <h3 class="portfolio-card-title">-- Sport --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="../UAS/makanan.jpg"
+            alt="Model"
+            class="portfolio-card-img"
+          />
+          <h3 class="portfolio-card-title">-- Commercial --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="../UAS/Short Film.jpg"
+            alt="Model"
+            class="portfolio-card-img"
+          />
+          <h3 class="portfolio-card-title">-- Short Film --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="../UAS/Company Profile.jpg"
+            alt="Model"
+            class="portfolio-card-img"
+          />
+          <h3 class="portfolio-card-title">-- Company Profile --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img
+            src="../UAS/Music Video.jpg"
+            alt="Model"
+            class="portfolio-card-img"
+          />
+          <h3 class="portfolio-card-title">-- Music Video --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="portfolio-card">
+          <img src="../UAS/Events.jpg" alt="Model" class="portfolio-card-img" />
+          <h3 class="portfolio-card-title">-- Events --</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2>Contact<span>Us</span></h2>
+      <p>Silahkan Hubungi Kami.</p>
+      <p>085354867535 | rajaebenhaezer@gmail.com</p>
+      <p>Jl. Melati No 15 Kota Sorong - Papua Barat Daya</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501.9187117660219!2d131.27541432288564!3d-0.880906368691114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d5eab46b78b62ab%3A0x65e2d7972495e852!2sKomples%20bangsal!5e1!3m2!1sid!2sid!4v1689184137050!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="e-Mail" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Phone/WA" />
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://instagram.com/ebenhaezer77"><i data-feather="instagram"></i></a>
+        <a href="https://www.facebook.com/Ebenhaezer.Kmby"><i data-feather="facebook"></i></a>
+        <a href="https://www.youtube.com/channel/UCGhmusqaZdOgGBB0ynj3WgA"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="#">Ebenhaezer Kambuaya</a>| &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
